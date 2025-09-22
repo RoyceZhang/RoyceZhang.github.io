@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - Rongsheng Zhang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Rongsheng Zhang</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">研究经历</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">联系我</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">联系我</h1>
+                <p class="page-subtitle">欢迎与我交流学术研究、合作机会或任何感兴趣的话题</p>
+            </div>
+        </section>
+
+        <!-- 联系信息 -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>邮箱</h3>
+                        <p>rz36@illinois.edu</p>
+                        <p>rshzhang@outlook.com</p>
+                        <a href="mailto:rz36@illinois.edu" class="contact-link">发送邮件</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>电话</h3>
+                        <p>+1 (217)-390-9044</p>
+                        <p>+86 15703282776</p>
+                        <a href="tel:+12173909044" class="contact-link">拨打电话</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>地址</h3>
+                        <p>608 E University Ave</p>
+                        <p>Champaign, IL 61820</p>
+                        <a href="https://maps.google.com/?q=608+E+University+Ave+Champaign+IL+61820" class="contact-link" target="_blank">查看地图</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>学校</h3>
+                        <p>伊利诺伊大学厄巴纳-香槟分校</p>
+                        <p>数学与统计学双专业</p>
+                        <a href="https://illinois.edu" class="contact-link" target="_blank">访问学校</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系表单 -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h2>发送消息</h2>
+                        <p>请填写下面的表单，我会尽快回复您的消息</p>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">姓名 *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">邮箱 *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="subject">主题 *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">请选择主题</option>
+                                    <option value="academic">学术合作</option>
+                                    <option value="research">研究讨论</option>
+                                    <option value="internship">实习机会</option>
+                                    <option value="graduate">研究生申请</option>
+                                    <option value="other">其他</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">电话</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息内容 *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="请详细描述您想要讨论的内容..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                订阅我的学术博客更新
+                            </label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">发送消息</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> 发送中...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 社交媒体 -->
+        <section class="social-media">
+            <div class="container">
+                <h2 class="section-title">社交媒体</h2>
+                <div class="social-grid">
+                    <a href="#" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>专业网络和学术交流</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>代码项目和开源贡献</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h3>Twitter</h3>
+                        <p>学术动态和思考分享</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-researchgate"></i>
+                        </div>
+                        <h3>ResearchGate</h3>
+                        <p>学术论文和研究合作</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 常见问题 -->
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">常见问题</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>您目前接受研究合作吗？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>是的，我欢迎与机器学习、数据科学和医疗物理相关的研究合作。如果您有有趣的项目想法或需要技术咨询，请随时联系我。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>您提供学术指导吗？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>我很乐意与本科生分享我的学术经验，特别是在数学、统计学和计算机科学领域。如果您需要关于课程选择、研究方向或研究生申请的建议，请与我联系。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>您的工作时间是什么时候？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>我通常在周一至周五的上午9点到下午6点（CST）回复邮件。对于紧急事项，您也可以通过电话联系我。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>您是否提供实习机会？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>虽然我目前是本科生，但我可以推荐相关的实习机会和项目。如果您对机器学习或数据科学实习感兴趣，我很乐意分享我的经验和网络资源。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 地图 -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">我的位置</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>伊利诺伊大学厄巴纳-香槟分校</h3>
+                        <p>608 E University Ave, Champaign, IL 61820</p>
+                        <a href="https://maps.google.com/?q=University+of+Illinois+Urbana-Champaign" class="map-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> 在Google地图中查看
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rongsheng Zhang</h3>
+                    <p>数学与统计学双专业本科生</p>
+                    <p>专注于机器学习与数据科学</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="about.html">关于我</a></li>
+                        <li><a href="research.html">研究经历</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="contact.html">联系我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p><i class="fas fa-envelope"></i> rz36@illinois.edu</p>
+                    <p><i class="fas fa-phone"></i> +1 (217)-390-9044</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Champaign, IL</p>
+                </div>
+                <div class="footer-section">
+                    <h4>社交媒体</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rongsheng Zhang. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
