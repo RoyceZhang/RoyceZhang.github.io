@@ -156,6 +156,23 @@ analytics:
   google:
     tracking_id          :
 
+nav:
+  - name: "Portfolio"
+    url: /portfolio/
+  - name: "Blog Posts"
+    url: /posts/
+  - name: "Publications"
+    url: /publications/
+  - name: "CV"
+    url: /cv/
+  # The following are hidden for now
+  # - name: "Talks"
+  #   url: /talks/
+  # - name: "Teaching"
+  #   url: /teaching/
+  # - name: "Guide"
+  #   url: /markdown/
+
 
 # Reading Files
 include:
