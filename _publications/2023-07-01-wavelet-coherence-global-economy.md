@@ -6,7 +6,7 @@ permalink: /publication/wavelet-coherence-global-economy
 excerpt: 'This study employs wavelet coherence analysis to uncover the dynamic interdependence between geopolitical risk, policy uncertainty, oil prices, and global stock markets during the Russo-Ukrainian War.'
 date: 2023-07-01
 venue: '2023 International Conference on Education, Management, Economics and Social Science (ICEMESS 2023)'
-paperurl: '[https://doi.org/10.23977/ICEMESS2023.114](https://www.clausiuspress.com/conferences/LNEMSS/ICEMESS%202023/F15.pdf)'
+paperurl: 'https://www.clausiuspress.com/conferences/LNEMSS/ICEMESS%202023/F15.pdf'
 citation: 'R. Zhang, Y. Shi, and X. Song (2023). "Wavelet Coherence Approach Linking Russo-Ukrainian War, Oil Prices, Geopolitical Risk, Stock Market, and Policy Uncertainty in the Global Economy." *Proceedings of the 2023 International Conference on Education, Management, Economics and Social Science (ICEMESS 2023)*. DOI: 10.23977/ICEMESS2023.114.'
 ---
 
@@ -34,3 +34,6 @@ This feedback loop highlights how geopolitical tensions propagate through financ
 
 ### DOI
 [10.23977/ICEMESS2023.114](https://doi.org/10.23977/ICEMESS2023.114)
+
+### Full Paper
+[Download PDF](https://www.clausiuspress.com/conferences/LNEMSS/ICEMESS%202023/F15.pdf)
