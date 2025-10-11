@@ -23,7 +23,7 @@ repository               : "RoyceZhang/RoyceZhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.png"
   name             : "Rongsheng (Royce) Zhang"
   pronouns         : "he/him"  
   bio              : "Undergraduate researcher at the University of Illinois Urbana-Champaign (UIUC), double majoring in Mathematics and Statistics with a minor in Computer Science. Interested in large language models, statistical learning, and applied optimization."
