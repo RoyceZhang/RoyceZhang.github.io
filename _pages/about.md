@@ -42,20 +42,18 @@ show_cv: true
 ## 🧑‍🎓 About Me
 
 I am **Rongsheng (Royce) Zhang**, an undergraduate researcher at the **University of Illinois Urbana-Champaign (UIUC)**, double majoring in **Mathematics** and **Statistics** with a **minor in Computer Science**.  
-My academic focus lies at the intersection of **mathematics**, **artificial intelligence**, and **statistical modeling**. I am particularly interested in **large language models (LLMs)**, **optimization algorithms**, and **machine learning applications in medical imaging and finance**.
-
-Previously, I studied **Financial Mathematics** at **Xi’an Jiaotong-Liverpool University (XJTLU)**, where I built a strong foundation in applied mathematics and quantitative analysis. My research experience spans **deep learning**, **reinforcement learning**, and **data-driven economic modeling**.
+My academic focus lies at the intersection of **mathematics**, **artificial intelligence**, **data science** and **statistical modeling**. I am particularly interested in **large language models (LLMs)**, **optimization algorithms**, and **machine learning applications in medical imaging and finance**.
 
 ---
 
 ## 🔬 Research Interests
 
-- Large Language Models (LLMs) and Fine-tuning Techniques (LoRA, Adapters, RLHF, DPO)
-- AI for Medical Imaging and Computational Optimization
-- Statistical Modeling, Bayesian Inference, and Time Series Analysis
-- Machine Learning for Financial and Economic Data
 - Applied Mathematics in Data Optimization
-
+- Statistical Modeling for Real-world Problem Solving
+- Machine Learning and Deep Learning for Financial and Economic Data
+- LLM-based Agent Systems, Knowledge Base Construction, and RAG (Retrieval-Augmented Generation)
+- Large Language Models (LLMs) and Fine-tuning Techniques (LoRA, Adapters, RLHF, DPO)
+  
 ---
 
 ## 🎓 Education
@@ -144,12 +142,3 @@ Presented at the *2023 International Conference on Education, Management, Econom
 
 - *Aug 2025:* Completed **AI Model Evaluation Internship** at Lenovo
 - *Jul 2025:* Attended **Peking University Summer School** on Large Models
-
----
-
-## 📬 Contact
-
-📧 **Email:** [rz36@illinois.edu](mailto:rz36@illinois.edu)  
-🌐 **LinkedIn:** [linkedin.com/in/rongsheng-zhang-770369283](https://www.linkedin.com/in/rongsheng-zhang-770369283)  
-🏛️ **Affiliation:** University of Illinois Urbana-Champaign  
-📍 **Location:** Champaign, IL, USA
