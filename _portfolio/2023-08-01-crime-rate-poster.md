@@ -29,4 +29,5 @@ This study demonstrates the potential of machine learning to enhance crime predi
 By combining supervised and unsupervised learning techniques, the research highlights how advanced analytics can help law enforcement agencies identify risk patterns, allocate resources efficiently, and strengthen data-driven policy decision-making.
 
 ### Poster Download
-<a class="btn btn-primary" href="/files/SURF_poster.pdf" target="_blank" style="background-color:#007acc; color:white; padding:8px 14px; border-radius:8px; text-decoration:none;">📄 View Poster (PDF)</a>
+<a class="btn btn-primary" href="/files/SURF_poster.pdf" target="_blank" style="background-color:#007acc; color:white; padding:8px 14px; border-radius:8px; text-decoration:none;">📄 Download Poster (PDF)</a>
+
