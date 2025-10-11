@@ -1,56 +1,155 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Rongsheng (Royce) Zhang"
+subtitle: "Undergraduate Researcher in Mathematics, Statistics, and Artificial Intelligence"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+description: "Academic homepage of Rongsheng (Royce) Zhang, undergraduate at UIUC majoring in Mathematics and Statistics with a minor in Computer Science. Focused on AI, data optimization, and applied mathematics."
+tags:
+  - academic
+  - research
+  - mathematics
+  - statistics
+  - machine learning
+  - artificial intelligence
+author:
+  name: "Rongsheng (Royce) Zhang"
+  affiliation: "University of Illinois Urbana-Champaign"
+  email: "rz36@illinois.edu"
+  homepage: "https://www.linkedin.com/in/rongsheng-zhang-770369283"
+  avatar: "/images/avatar.png"
+
+social_links:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/rongsheng-zhang-770369283"
+  - name: "Google Scholar"
+    url: "#"
+  - name: "GitHub"
+    url: "#"
+  - name: "Email"
+    url: "mailto:rz36@illinois.edu"
+
+show_publications: true
+show_talks: true
+show_teaching: false
+show_portfolio: true
+show_blog: true
+show_cv: true
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## 🧑‍🎓 About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am **Rongsheng (Royce) Zhang**, an undergraduate researcher at the **University of Illinois Urbana-Champaign (UIUC)**, double majoring in **Mathematics** and **Statistics** with a **minor in Computer Science**.  
+My academic focus lies at the intersection of **mathematics**, **artificial intelligence**, and **statistical modeling**. I am particularly interested in **large language models (LLMs)**, **optimization algorithms**, and **machine learning applications in medical imaging and finance**.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Previously, I studied **Financial Mathematics** at **Xi’an Jiaotong-Liverpool University (XJTLU)**, where I built a strong foundation in applied mathematics and quantitative analysis. My research experience spans **deep learning**, **reinforcement learning**, and **data-driven economic modeling**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## 🔬 Research Interests
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- Large Language Models (LLMs) and Fine-tuning Techniques (LoRA, Adapters, RLHF, DPO)
+- AI for Medical Imaging and Computational Optimization
+- Statistical Modeling, Bayesian Inference, and Time Series Analysis
+- Machine Learning for Financial and Economic Data
+- Applied Mathematics in Data Optimization
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 🎓 Education
 
-**Markdown generator**
+**University of Illinois Urbana-Champaign (UIUC)** — *Aug 2024 – Present*  
+**B.S. in Mathematics and Statistics (Double Major)**  
+*Minor in Computer Science*  
+GPA: **3.90/4.00**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**Xi’an Jiaotong-Liverpool University (XJTLU)** — *Sept 2022 – Jul 2024*  
+**B.S. in Financial Mathematics**  
+GPA: **3.88/4.00**
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## 🧠 Research Experience
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Medical Physics Project — Research Assistant** *(Nov 2023 – Present)*  
+Developed reinforcement learning algorithms for automated segmentation of tumors and organs in MRI scans for IMRT planning.  
+Applied geometric deep learning to predict MLC aperture shapes from dose-volume constraints, improving radiation efficiency.
+
+**Wavelet Coherence Study — Co-Author** *(Jun – Jul 2023)*  
+*Paper: “Wavelet Coherence Approach Linking Russo-Ukrainian War, Oil Prices, Geopolitical Risk, Stock Market, and Policy Uncertainty in the Global Economy.”*  
+Presented at the *2023 International Conference on Education, Management, Economics and Social Science*; indexed in CPCI and CNKI.
+
+---
+
+## 💼 Industry Experience
+
+**Lenovo Global Headquarters — AI Model Evaluation Intern** *(Jun – Aug 2025)*  
+- Evaluated Text-to-Image models and RAG systems for accuracy, relevance, and diversity.  
+- Built evaluation datasets and contributed to model assessment pipelines.
+- Compared LLM training workflows (DeepSeek vs. GPT) across pretraining, data, and optimization pipelines. 
+
+**Zhonghui Boyu Technology Co., Ltd. — LLM Application Intern** *(Jun – Aug 2024)*  
+- Designed and deployed local LLMs using **Ollama** and **LangChain**.  
+- Improved hybrid search algorithm efficiency by 40% and response accuracy by 30%.
+
+**Shenwan Hongyuan Securities — Market Data Analysis Intern** *(Aug 2023)*  
+- Conducted stock trend analysis and automated data visualization using Python and Excel.
+
+---
+
+## 🏅 Honors and Awards
+
+- **Dean’s List**, UIUC — *Jun 2025*  
+- **First Prize**, Asia-Pacific Mathematical Contest in Modeling — *Aug 2024*  
+- **University Academic Achievement Scholarship** — *Jul 2023, Jul 2024*  
+- **Outstanding Student Award** — *Nov 2023*  
+- **Summer Undergraduate Research Scholarship** — *Sept 2023*
+
+---
+
+## 📚 Academic Activities
+
+- **Peking University Summer School (2025)** — *Large Model: From Foundation to Frontier*  
+  Attended lectures on neural networks, deep learning, attention mechanisms, and transformers.  
+
+- **Summer Undergraduate Research Fellowship (2023)** — *Artificial Intelligence in Finance*  
+  Created predictive models for crime rate forecasting using machine learning.  
+
+---
+
+## 🧩 Extracurricular Leadership
+
+- **Peer Tutoring Club, XJTLU — Internal President (2022–2024)**  
+  Led a 120-member club, organized seminars and competitions, and promoted academic collaboration.  
+
+- **XJTLU Innovation and Entrepreneurship Competition (2024)** — *Team Leader*  
+  Designed an AI-driven intelligent travel application; awarded **Third Prize**.  
+
+---
+
+## 🧰 Technical Skills
+
+| Category | Skills |
+|-----------|---------|
+| **Programming** | Python (Proficient), Java, MATLAB, R, SQL, C++ |
+| **AI & Data Science** | Machine Learning, Deep Learning, Data Visualization |
+| **Languages** | English (Fluent), Mandarin (Native) |
+| **Tools** | Jupyter, Excel, PowerPoint, Outlook, LaTeX |
+
+---
+
+## 📰 Latest Updates
+
+- *Aug 2025:* Completed **AI Model Evaluation Internship** at Lenovo
+- *Jul 2025:* Attended **Peking University Summer School** on Large Models
+
+---
+
+## 📬 Contact
+
+📧 **Email:** [rz36@illinois.edu](mailto:rz36@illinois.edu)  
+🌐 **LinkedIn:** [linkedin.com/in/rongsheng-zhang-770369283](https://www.linkedin.com/in/rongsheng-zhang-770369283)  
+🏛️ **Affiliation:** University of Illinois Urbana-Champaign  
+📍 **Location:** Champaign, IL, USA
