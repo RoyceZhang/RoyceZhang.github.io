@@ -1,3 +1,22 @@
+---
+layout: single
+title: "In-depth Report on the Training Process of Large Models and Core Fine-Tuning Methods"
+date: 2025-9-11
+categories: 
+  - Blog
+tags:
+  - Large Language Models
+  - Fine-Tuning
+author_profile: true
+read_time: true
+toc: true
+toc_sticky: true
+---
+
+
+
+
+
 # Deep Research Report on Large Model Training Processes and Core Fine-Tuning Methods
 
 This study delves deeply into the technical details and mathematical principles of the complete training pipeline for large language models, covering the full-stack technologies from pretraining data preparation to human preference alignment. Through a systematic analysis of current mainstream fine-tuning techniques — including full-parameter fine-tuning, parameter-efficient fine-tuning (PEFT), and reinforcement learning optimization methods — it provides comprehensive technical guidance and theoretical support for large model training practices. The research focuses on mathematical derivations, technical principles, and engineering implementations of core algorithms, furnishing a solid theoretical foundation to drive the development and industrial application of large model technologies.
