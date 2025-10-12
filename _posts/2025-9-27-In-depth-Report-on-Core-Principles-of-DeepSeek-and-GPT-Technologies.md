@@ -1,3 +1,19 @@
+---
+layout: single
+title: "In-depth Report on Core Principles of DeepSeek and GPT Technologies"
+date: 2025-9-27
+categories:
+  - Blog
+tags:
+  - DeepSeek
+  - GPT
+  - Transformer
+author_profile: true
+read_time: true
+toc: true
+toc_sticky: true
+---
+
 # DeepSeek and GPT Core Technology Principles In-Depth Research Report
 
 ## —Technical Innovations and Differentiation Analysis Based on the Transformer Architecture
