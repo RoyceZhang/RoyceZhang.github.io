@@ -1,3 +1,21 @@
+---
+layout: single
+title: "Mathematical Methods and Their Physical Implementation in Intensity-Modulated Radiation Therapy"
+date: 2025-3-8
+categories:
+  - Blog
+tags:
+  - Medical Physics
+  - Optimization
+  - Deep Learning
+  - Radiation Therapy
+  - Applied Mathematics
+author_profile: true
+read_time: true
+toc: true
+toc_sticky: true
+---
+
 # Mathematical Methods and Their Physical Implementation in Intensity-Modulated Radiation Therapy
 
 ## A Systematic Review Based on Inverse Planning (IMRT) and Multileaf Collimator Technology (MLC)
