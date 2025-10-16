@@ -40,105 +40,91 @@ show_cv: true
 ---
 
 ## 🧑‍🎓 About Me
-
-I am **Rongsheng (Royce) Zhang**, an undergraduate researcher at the **University of Illinois Urbana-Champaign (UIUC)**, double majoring in **Mathematics** and **Statistics** with a **minor in Computer Science**.  
-My academic focus lies at the intersection of **mathematics**, **artificial intelligence**, **data science** and **statistical modeling**. I am particularly interested in **large language models (LLMs)**, **optimization algorithms**, and **machine learning applications in medical imaging and finance**.
-
----
+I am **Rongsheng (Royce) Zhang**, an undergraduate at **UIUC** double-majoring in **Mathematics** and **Statistics** with a **minor in Computer Science**. I work at the intersection of optimization, machine learning, and statistical modeling, with applications in medical imaging and finance.
 
 ## 🔬 Research Interests
+My research interests lie at the intersection of **mathematical statistics** and **computing**. Guided by optimization and machine learning, I develop **robust modeling and inference for high-dimensional and time-series data**. Core directions include **wavelet/multi-scale structure discovery and sparse representations**; **robust estimation and risk measurement in econometrics**; **uncertainty quantification and causal inference in biostatistics**; and **policy evaluation and sample-complexity analysis for reinforcement learning in the MDP framework**. I also study **verifiable evaluation and calibration** from the perspectives of measurement error and sample complexity. My goal is to pair **rigorous statistical theory** with **scalable optimization** to enable reliable decision-making.
 
-- Applied Mathematics in Data Optimization
-- Statistical Modeling for Real-world Problem Solving
-- Machine Learning and Deep Learning for Financial and Economic Data
-- LLM-based Agent Systems, Knowledge Base Construction, and RAG (Retrieval-Augmented Generation)
-- Large Language Models (LLMs) and Fine-tuning Techniques (LoRA, Adapters, RLHF, DPO)
-  
----
+<details>
+  <summary><strong>Show more</strong></summary>
 
-## 🎓 Education
+  <!-- ===== begin ===== -->
 
-**University of Illinois Urbana-Champaign (UIUC)** — *Aug 2024 – Present*  
-**B.S. in Mathematics and Statistics (Double Major)**  
-*Minor in Computer Science*  
-GPA: **3.90/4.00**
+  ## 🔬 More areas of interest
+  - Applied Mathematics in Data Optimization  
+  - Statistical Modeling for Real-world Problem Solving  
+  - Machine Learning and Deep Learning for Financial and Economic Data  
+  - LLM-based Agent Systems, Knowledge Base Construction, and RAG (Retrieval-Augmented Generation)  
+  - Large Language Models (LLMs) and Fine-tuning Techniques (LoRA, Adapters, RLHF, DPO)
 
-**Xi’an Jiaotong-Liverpool University (XJTLU)** — *Sept 2022 – Jul 2024*  
-**B.S. in Financial Mathematics**  
-GPA: **3.88/4.00**
+  ## 🎓 Education
+  **University of Illinois Urbana-Champaign (UIUC)** — *Aug 2024 – Present*  
+  **B.S. in Mathematics and Statistics (Double Major)**  
+  *Minor in Computer Science*  
+  GPA: **3.90/4.00**
 
----
+  **Xi’an Jiaotong-Liverpool University (XJTLU)** — *Sept 2022 – Jul 2024*  
+  **B.S. in Financial Mathematics**  
+  GPA: **3.88/4.00**
 
-## 🧠 Research Experience
+  ## 🧠 Research Experience
+  **Medical Physics Project — Research Assistant** *(Nov 2023 – Present)*  
+  Developed reinforcement learning algorithms for automated segmentation of tumors and organs in MRI scans for IMRT planning.  
+  Applied geometric deep learning to predict MLC aperture shapes from dose-volume constraints, improving radiation efficiency.
 
-**Medical Physics Project — Research Assistant** *(Nov 2023 – Present)*  
-Developed reinforcement learning algorithms for automated segmentation of tumors and organs in MRI scans for IMRT planning.  
-Applied geometric deep learning to predict MLC aperture shapes from dose-volume constraints, improving radiation efficiency.
+  **Wavelet Coherence Study — Co-Author** *(Jun – Jul 2023)*  
+  *Paper: “Wavelet Coherence Approach Linking Russo-Ukrainian War, Oil Prices, Geopolitical Risk, Stock Market, and Policy Uncertainty in the Global Economy.”*  
+  Presented at the *2023 International Conference on Education, Management, Economics and Social Science*; indexed in CPCI and CNKI.
 
-**Wavelet Coherence Study — Co-Author** *(Jun – Jul 2023)*  
-*Paper: “Wavelet Coherence Approach Linking Russo-Ukrainian War, Oil Prices, Geopolitical Risk, Stock Market, and Policy Uncertainty in the Global Economy.”*  
-Presented at the *2023 International Conference on Education, Management, Economics and Social Science*; indexed in CPCI and CNKI.
+  ## 💼 Industry Experience
+  **Lenovo Global Headquarters — AI Model Evaluation Intern** *(Jun – Aug 2025)*  
+  - Evaluated Text-to-Image models and RAG systems for accuracy, relevance, and diversity.  
+  - Built evaluation datasets and contributed to model assessment pipelines.  
+  - Compared LLM training workflows (DeepSeek vs. GPT) across pretraining, data, and optimization pipelines.
 
----
+  **Zhonghui Boyu Technology Co., Ltd. — LLM Application Intern** *(Jun – Aug 2024)*  
+  - Designed and deployed local LLMs using **Ollama** and **LangChain**.  
+  - Improved hybrid search algorithm efficiency by 40% and response accuracy by 30%.
 
-## 💼 Industry Experience
+  **Shenwan Hongyuan Securities — Market Data Analysis Intern** *(Aug 2023)*  
+  - Conducted stock trend analysis and automated data visualization using Python and Excel.
 
-**Lenovo Global Headquarters — AI Model Evaluation Intern** *(Jun – Aug 2025)*  
-- Evaluated Text-to-Image models and RAG systems for accuracy, relevance, and diversity.  
-- Built evaluation datasets and contributed to model assessment pipelines.
-- Compared LLM training workflows (DeepSeek vs. GPT) across pretraining, data, and optimization pipelines. 
+  ## 🏅 Honors and Awards
+  - **Dean’s List**, UIUC — *Jun 2025*  
+  - **First Prize**, Asia-Pacific Mathematical Contest in Modeling — *Aug 2024*  
+  - **University Academic Achievement Scholarship** — *Jul 2023, Jul 2024*  
+  - **Outstanding Student Award** — *Nov 2023*  
+  - **Summer Undergraduate Research Scholarship** — *Sept 2023*
 
-**Zhonghui Boyu Technology Co., Ltd. — LLM Application Intern** *(Jun – Aug 2024)*  
-- Designed and deployed local LLMs using **Ollama** and **LangChain**.  
-- Improved hybrid search algorithm efficiency by 40% and response accuracy by 30%.
+  ## 📚 Academic Activities
+  - **Peking University Summer School (2025)** — *Large Model: From Foundation to Frontier*  
+    Attended lectures on neural networks, deep learning, attention mechanisms, and transformers.  
 
-**Shenwan Hongyuan Securities — Market Data Analysis Intern** *(Aug 2023)*  
-- Conducted stock trend analysis and automated data visualization using Python and Excel.
+  - **Summer Undergraduate Research Fellowship (2023)** — *Artificial Intelligence in Finance*  
+    Created predictive models for crime rate forecasting using machine learning.  
 
----
+  ## 🧩 Extracurricular Leadership
+  - **Peer Tutoring Club, XJTLU — Internal President (2022–2024)**  
+    Led a 120-member club, organized seminars and competitions, and promoted academic collaboration.  
 
-## 🏅 Honors and Awards
+  - **XJTLU Innovation and Entrepreneurship Competition (2024)** — *Team Leader*  
+    Designed an AI-driven intelligent travel application; awarded **Third Prize**.  
 
-- **Dean’s List**, UIUC — *Jun 2025*  
-- **First Prize**, Asia-Pacific Mathematical Contest in Modeling — *Aug 2024*  
-- **University Academic Achievement Scholarship** — *Jul 2023, Jul 2024*  
-- **Outstanding Student Award** — *Nov 2023*  
-- **Summer Undergraduate Research Scholarship** — *Sept 2023*
+  ## 🧰 Technical Skills
+  | Category | Skills |
+  |-----------|---------|
+  | **Programming** | Python (Proficient), Java, MATLAB, R, SQL, C++ |
+  | **AI & Data Science** | Machine Learning, Deep Learning, Data Visualization |
+  | **Languages** | English (Fluent), Mandarin (Native) |
+  | **Tools** | Jupyter, Excel, PowerPoint, Outlook, LaTeX |
 
----
+  <!-- ===== end ===== -->
 
-## 📚 Academic Activities
+</details>
 
-- **Peking University Summer School (2025)** — *Large Model: From Foundation to Frontier*  
-  Attended lectures on neural networks, deep learning, attention mechanisms, and transformers.  
-
-- **Summer Undergraduate Research Fellowship (2023)** — *Artificial Intelligence in Finance*  
-  Created predictive models for crime rate forecasting using machine learning.  
-
----
-
-## 🧩 Extracurricular Leadership
-
-- **Peer Tutoring Club, XJTLU — Internal President (2022–2024)**  
-  Led a 120-member club, organized seminars and competitions, and promoted academic collaboration.  
-
-- **XJTLU Innovation and Entrepreneurship Competition (2024)** — *Team Leader*  
-  Designed an AI-driven intelligent travel application; awarded **Third Prize**.  
-
----
-
-## 🧰 Technical Skills
-
-| Category | Skills |
-|-----------|---------|
-| **Programming** | Python (Proficient), Java, MATLAB, R, SQL, C++ |
-| **AI & Data Science** | Machine Learning, Deep Learning, Data Visualization |
-| **Languages** | English (Fluent), Mandarin (Native) |
-| **Tools** | Jupyter, Excel, PowerPoint, Outlook, LaTeX |
-
----
-
-## 📰 Latest Updates
-
-- *Aug 2025:* Completed **AI Model Evaluation Internship** at Lenovo
-- *Jul 2025:* Attended **Peking University Summer School** on Large Models
+<style>
+details summary { cursor: pointer; }
+details summary::-webkit-details-marker { display: none; } /* hide default marker */
+details summary::after { content: " ▸"; }
+details[open] summary::after { content: " ▾"; }
+</style>
