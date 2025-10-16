@@ -7,13 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 description: "Academic homepage of Rongsheng (Royce) Zhang, undergraduate at UIUC majoring in Mathematics and Statistics with a minor in Computer Science. Focused on AI, data optimization, and applied mathematics."
-tags:
-  - academic
-  - research
-  - mathematics
-  - statistics
-  - machine learning
-  - artificial intelligence
+
 author:
   name: "Rongsheng (Royce) Zhang"
   affiliation: "University of Illinois Urbana-Champaign"
