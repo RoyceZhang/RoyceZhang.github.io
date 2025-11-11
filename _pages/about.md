@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-description: "Academic homepage of Rongsheng (Royce) Zhang, undergraduate at UIUC majoring in Mathematics and Statistics with a minor in Computer Science. Focused on AI, data optimization, and applied mathematics."
+description: "Academic homepage of Rongsheng (Royce) Zhang, undergraduate at UIUC majoring in Mathematics and Statistics with a minor in Computer Science and Data Science. Focused on Machine Learning, Data Optimization, AI and Applied Mathematics."
 
 author:
   name: "Rongsheng (Royce) Zhang"
@@ -34,6 +34,6 @@ show_cv: true
 ---
 
 ## About Me
-I am **Rongsheng (Royce) Zhang**, an undergraduate at **University of Illinois Urbana-Champaign** double-majoring in **Mathematics and Statistics** with a minor in **Computer Science**.
+I am **Rongsheng (Royce) Zhang**, an undergraduate at **University of Illinois Urbana-Champaign** double-majoring in **Mathematics and Statistics** with a minor in **Computer Science and Data Science**.
 
-My research interests lie at the intersection of mathematical statistics and computing. Guided by optimization and machine learning, I develop robust modeling and inference for high-dimensional and time-series data. Core directions include wavelet/multi-scale structure discovery and sparse representations; robust estimation and risk measurement in econometrics; uncertainty quantification and causal inference in biostatistics; and policy evaluation and sample-complexity analysis for reinforcement learning in the MDP framework. I also study verifiable evaluation and calibration from the perspectives of measurement error and sample complexity. My goal is to pair rigorous statistical theory with scalable optimization to enable reliable decision-making.
+My research interests lie at the intersection of mathematical statistics and computer science: centered on optimization and machine learning, I focus on robust modeling and inference for high-dimensional and time-series data. Key areas include wavelet/multiscale structure discovery and sparse representation, robust estimation and risk measurement in financial econometrics, uncertainty quantification and causal inference in biostatistics, and policy evaluation and sample complexity in reinforcement learning within the MDP framework. Simultaneously, I develop verifiable evaluation and calibration methods addressing measurement error and sample complexity. My goal is to underpin scalable computation and reliable decision-making with rigorous statistical theory.
