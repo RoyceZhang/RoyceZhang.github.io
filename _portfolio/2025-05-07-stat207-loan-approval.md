@@ -33,8 +33,3 @@ Synthetic data limits external validity; future work: add **DTI, LTV, utilizatio
 ### Downloads
 - 📄 **Paper**: [STAT207 Final Project]({{ '/files/STAT207%20Final%20Project.pdf' | relative_url }})  
 - 🖼️ **Poster**: [STAT207 Presentation]({{ '/files/STAT207_Presentation.pdf' | relative_url }})
-
-### Poster Preview (optional)
-<object data="{{ '/files/STAT207_Presentation.pdf' | relative_url }}" type="application/pdf" width="100%" height="800">
-  <p>PDF preview unavailable. <a href="{{ '/files/STAT207_Presentation.pdf' | relative_url }}">Download Poster (PDF)</a></p>
-</object>
