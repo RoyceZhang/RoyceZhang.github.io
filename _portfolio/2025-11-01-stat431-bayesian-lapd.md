@@ -25,7 +25,7 @@ From the 2024–2025 subset, for each area we compute:
 - Weapon-involved proportion (weapon code present).
 Key variables include date of occurrence, police area code, primary crime code 1, and weapon code.
 
-### Model (plain language)
+### Model
 - **Likelihood:** For each area, the observed count is treated as coming from a Poisson distribution with mean equal to exposure times the area’s underlying rate.  
 - **Prior:** Each area’s rate has an Exponential prior with a shared shrinkage parameter; that parameter has a Gamma hyperprior.  
 - **Gibbs sampling:**  
@@ -40,6 +40,5 @@ This yields posterior draws for all rates and hyperparameters.
 4. **Reporting**: posterior means and 95% credible intervals for each area’s rate; estimate the overall mean rate; visualize spatial variation across areas.
 
 ### Proposal Preview
-<object data="{{ '/files/STAT431_Final_Project.pdf' | relative_url }}" type="application/pdf" width="100%" height="800">
-  <p>PDF preview unavailable. <a href="{{ '/files/STAT431_Final_Project.pdf' | relative_url }}">Download Paper (PDF)</a></p>
-</object>
+- 📄 **Proposal**: [STAT431 Final Project Proposal]({{ '/files/STAT431_Final_Project.pdf' | relative_url }})
+
