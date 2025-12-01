@@ -33,3 +33,4 @@ All series share monthly frequency and will be aligned by date. :contentReferenc
 
 ### Downloads
 - 📄 **Proposal**: [STAT429 Project Proposal]({{ '/files/STAT429_Project%20Proposal.pdf' | relative_url }})
+- 📄 **Report**: [STAT429 Final Project Report]({{ '/files/STAT-429-Final-Project.pdf' | relative_url }})
