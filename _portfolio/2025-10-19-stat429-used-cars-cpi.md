@@ -36,6 +36,6 @@ A **COVID-19 dummy variable** was introduced for the post-January 2020 period to
 4.  **Evaluation**: Models were compared using residual diagnostics (Ljung-Box, Normality) and out-of-sample forecast accuracy. The ARIMA model successfully eliminated autocorrelation artifacts present in the regression approaches. [file:1]
 
 ### Downloads
-- 📄 **Report**: [STAT429 Final Project Report]({{ '/files/STAT429-Final-Project.pdf' | relative_url }})
-- 📊 **Slides**: [Presentation Slides]({{ '/files/STAT-429-Presentation_Slides.pdf' | relative_url }})
+- 📄 **Report**: [STAT429 Final Project Report]({{ 'files/STAT429 Final Project.pdf' | relative_url }})
+- 📊 **Slides**: [Presentation Slides]({{ 'files/STAT 429 Presentation_Slides.pdf' | relative_url }})
 - 
